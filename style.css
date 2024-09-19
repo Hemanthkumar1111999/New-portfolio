@@ -419,6 +419,21 @@ label{
     .contact-container > p{
         font-size: 21px;
     }
+    .fa-facebook{
+        color: #43609c;
+    }
+    .fa-whatsapp{
+        color: green;
+    }
+    .fa-instagram{
+        color: #ef0074;
+    }
+    .fa-linkedin{
+        color: rgb(37, 49, 155);
+    }
+    .fa-youtube{
+        color: red;
+    }
 }
 
 
