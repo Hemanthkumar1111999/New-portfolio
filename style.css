@@ -206,10 +206,21 @@ input[type=text], input[type=email], textarea {
 .contact-mail-id{
     font-size: 20px;
     font-weight: 700;
+    color: #111;
+}
+.contact-mail-id>a{
+    color: #111;
+}
+.contact-mail-id>a:hover,.ph-no>a:hover{
+    color: #43609c;
 }
 .ph-no{
     font-size: 15px;
     opacity: 0.7;
+}
+.ph-no>a{
+    color: black;
+    text-decoration: none;
 }
 .contact-container > h2{
     font-size: 30px;
@@ -406,7 +417,7 @@ label{
         width: 100%;
     }
     .contact-container > p{
-        font-size: 25px;
+        font-size: 21px;
     }
 }
 
