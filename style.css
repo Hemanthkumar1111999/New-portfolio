@@ -456,16 +456,16 @@ label{
 }
 @keyframes BgChange {
     0%{
-        background-image: url('/image\ 1pic-1.png');
+        background-image: url('/image-1pic-1.png');
     }
     50%{
-        background-image: url('/image\ 1pic-2.png');
+        background-image: url('/image-2pic-2.png');
     }
     75%{
-        background-image: url('/image\ 1pic-3.png');
+        background-image: url('/image-3pic-3.png');
     }
     100%{
-        background-image: url('/image\ 1pic-4.png');
+        background-image: url('/image-4pic-4.png');
     }
 }
 .Thank-u-container{
