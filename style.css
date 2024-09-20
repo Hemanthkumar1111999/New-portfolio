@@ -308,6 +308,57 @@ label{
     display: none;
 }
 
+/* thank you banner */
+
+.Thank-u-banner{
+    width: 50vmin;
+    height: 50vh;
+    /* background-image: url('/image\ 1pic-1.png'); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: BgChange 8s linear infinite;
+}
+@keyframes BgChange {
+    0%{
+        background-image: url('/image-1pic-1.png');
+    }
+    50%{
+        background-image: url('/image-2pic-2.png');
+    }
+    75%{
+        background-image: url('/image-3pic-3.png');
+    }
+    100%{
+        background-image: url('/image-4pic-4.png');
+    }
+}
+.Thank-u-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8%;
+}
+.Thank-u-content{
+    width: 50vmax;
+    text-align: center;
+}
+.Thank-u-content>h2{
+    font-weight: 600;
+    font-size: 50px;
+}
+.emoji-smile{
+    font-size: 70px;
+}
+.ES{
+    margin-top: -50px;
+}
+.project-link{
+    color: #000;
+}
+.project-link:hover{
+    color: #43609c;
+}
+
 
 @media (max-width: 426px){
     header main{
@@ -434,6 +485,13 @@ label{
     .fa-youtube{
         color: red;
     }
+    .Thank-u-container{
+        flex-direction: column;
+    }
+    .Thank-u-banner{
+        width: 100vw;
+        height: 90vh;
+    }
 }
 
 
@@ -444,38 +502,4 @@ label{
  margin-bottom: 4px;
 }
 
-/* thank you banner */
-
-.Thank-u-banner{
-    width: 50vmin;
-    height: 50vh;
-    /* background-image: url('/image\ 1pic-1.png'); */
-    background-repeat: no-repeat;
-    background-size: contain;
-    animation: BgChange 8s linear infinite;
-}
-@keyframes BgChange {
-    0%{
-        background-image: url('/image-1pic-1.png');
-    }
-    50%{
-        background-image: url('/image-2pic-2.png');
-    }
-    75%{
-        background-image: url('/image-3pic-3.png');
-    }
-    100%{
-        background-image: url('/image-4pic-4.png');
-    }
-}
-.Thank-u-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8%;
-}
-.Thank-u-content{
-    width: 50vmax;
-    text-align: center;
-}
 
