@@ -84,6 +84,7 @@ nav{
     background-color: #ffd500;
     border-radius: 20px;
     padding: 10px 20px;
+    text-decoration: none;
 
 }
 .cv-download:hover{
